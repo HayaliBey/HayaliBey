@@ -12,6 +12,9 @@ namespace GenericsIntro
         {
             items = new T[0];
         }
+
+        public bool Length { get; internal set; }
+
         public void Add(T item)
         {
             T[] tempArray = items; //geçici dizi
